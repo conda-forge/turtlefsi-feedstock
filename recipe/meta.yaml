@@ -1,5 +1,5 @@
 {% set name = "turtleFSI" %}
-{% set version = "1.1" %}
+{% set version = "1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/KVSLab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 84adf1e4e7a927ee43bd8a18cab75dd08d4d5f21f4b98cac7b920bbe6525bfb9
+  sha256: 448883d612abafdc75a9750a4ac37a83172494c70c5076ea250ccd39e777c023
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
