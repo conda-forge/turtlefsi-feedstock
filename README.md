@@ -5,9 +5,13 @@ Home: https://turtlefsi2.readthedocs.io/en/latest/
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/turtlefsi-feedstock/blob/master/LICENSE.txt)
 
 Summary: A monolithic fluid structure interaction solver based on FEniCS.
+
+Development: https://github.com/KVSLab/turtleFSI
+
+Documentation: https://turtlefsi2.readthedocs.io/en/latest/
 
 TurtleFSI is a monolithic fluid structure intreaction solver, solving for
 Navier-Stokes in the fluid, and hyperelasticity in the solid. TurtleFSI
