@@ -1,5 +1,5 @@
 {% set name = "turtleFSI" %}
-{% set version = "1.5" %}
+{% set version = "2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/KVSLab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: dae902e9f9f567c3779d2d5abb78f24f16b686315fd301387a3157f8b67b476d
+  sha256: a3695c6fdaaab3238ab3145278ce2eb09d9ab167283d2e3204979631fd4d171f
 
 build:
   number: 0
@@ -24,6 +24,9 @@ requirements:
     - python >=3
     - fenics
     - numpy
+    - pyyaml
+    - configargparse
+    - scipy
 
 test:
   imports:
