@@ -24,6 +24,8 @@ requirements:
     - python >=3
     - fenics
     - numpy
+    - pyyaml
+    - configargparse
 
 test:
   imports:
