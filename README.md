@@ -154,4 +154,5 @@ Feedstock Maintainers
 
 * [@albansouche](https://github.com/albansouche/)
 * [@aslakbergersen](https://github.com/aslakbergersen/)
+* [@keiyamamo](https://github.com/keiyamamo/)
 
