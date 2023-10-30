@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/turtlefsi-feeds
 
 Home: https://turtlefsi2.readthedocs.io/en/latest/
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Summary: A monolithic fluid structure interaction solver based on FEniCS.
 
