@@ -1,5 +1,5 @@
 {% set name = "turtleFSI" %}
-{% set version = "2.2" %}
+{% set version = "2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/KVSLab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 513efd1de6c6c23f9cfab60b0dc0e2e4f41dfca96623d9dbdeb6891dfbc88d4e
+  sha256: 0147675044833aed959c56a7d553351b356833bcb56bfbc397e88028a8e0ec0f
 
 build:
   number: 0
@@ -45,7 +45,7 @@ about:
     Navier-Stokes in the fluid, and hyperelasticity in the solid. TurtleFSI
     benefits from the HPC capabilities in FEniCS.
   home: https://turtlefsi2.readthedocs.io/en/latest/
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   doc_url: https://turtlefsi2.readthedocs.io/en/latest/
