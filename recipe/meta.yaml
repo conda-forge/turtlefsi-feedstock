@@ -1,13 +1,13 @@
 {% set name = "turtleFSI" %}
-{% set version = "2.3" %}
+{% set version = "2.3.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/KVSLab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0147675044833aed959c56a7d553351b356833bcb56bfbc397e88028a8e0ec0f
+  url: https://github.com/KVSLab/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: 2f0b58409da1fa43cbd73cee97adab06dee7bcae1cdf7f5051cf4a1de16b6538
 
 build:
   number: 0
