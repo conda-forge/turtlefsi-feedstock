@@ -45,7 +45,7 @@ about:
     Navier-Stokes in the fluid, and hyperelasticity in the solid. TurtleFSI
     benefits from the HPC capabilities in FEniCS.
   home: https://turtlefsi2.readthedocs.io/en/latest/
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   doc_url: https://turtlefsi2.readthedocs.io/en/latest/
