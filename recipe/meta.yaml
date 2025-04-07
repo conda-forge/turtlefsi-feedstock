@@ -53,6 +53,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - johannesring
     - keiyamamo
     - aslakbergersen
     - albansouche
